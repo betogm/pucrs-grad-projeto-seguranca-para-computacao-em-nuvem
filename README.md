@@ -7,7 +7,8 @@ PUCRS GRADUAÇÃO TI - Projetos para Disciplina Segurança para Computação em 
 
 Executar o arquivo fase-1-aes-ctr-tarefa-1.2.php com o comando abaixo, observando que KEY e IV devem ser em Hexadecimal:
 
-```php -f fase-1-aes-ctr-tarefa-1.2.php "Texto a encriptar" KEY IV
+```php
+php -f fase-1-aes-ctr-tarefa-1.2.php "Texto a encriptar" KEY IV
 ```
 
 
