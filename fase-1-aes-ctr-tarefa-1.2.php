@@ -1,4 +1,11 @@
 <?php
+# PUCRS - Curso Superior de Tecnologia em Gestão da Tecnologia da Informação: Soluções Baseadas em Nuvem
+# Trimestre: 06
+# Disciplina: Segurança para Computação em Nuvem
+# Professores:  Avelino Francisco Zorzo
+# Projeto - Fase 1
+# Título: AES
+# Aluno: Huberto Gastal Mayer
 
 // Retorna o padding para preenchimento
 function pkcs7Pad($data, $blockSize) {
@@ -70,7 +77,6 @@ function decryptAES($ciphertextHex, $keyHex, $ivHex) {
     return $decrypted;
 }
 
-// Exemplo de uso
 $plaintext = $argv[1];
 $keyHex = $argv[2];
 $ivHex = $argv[3];
