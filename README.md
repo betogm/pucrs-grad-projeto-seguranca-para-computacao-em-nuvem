@@ -32,16 +32,26 @@ php -f fase-1-diffie-hellman-tarefa-2.php p g A b
 ```
 
 Onde:
+
 p: número primo compartilhado
+
 g: gerador
+
 A: valor público compartilhado da Alice
+
 b: número aleatório de 1 até p - 1 (ou gerado pelo script, se não for passado a ele)
 
+
 Exemplo utilizando dados do exercício:
+
 p: 1041607122029938459843911326429539139964006065005940226363139
+
 g: 10
+
 A: 105008283869277434967871522668292359874644989537271965222162
+
 b: 47769275707781232167543121472933348266139636086
+
 
 Comando:
 
